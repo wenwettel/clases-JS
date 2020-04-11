@@ -1,0 +1,102 @@
+/* Este es el selector universal */
+* {
+  color: blue;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* 
+  selector de tipo
+  va a modificar a todos los h1
+*/
+h1 {
+  color: red;
+  text-decoration: blink;
+}
+
+/* 
+  selector de tipo
+  va a modificar a todos los h1
+  Este al ser el último va a tomar efecto
+*/
+h1 {
+  color: green;
+}
+
+/*
+  selector de clase
+  los elementos que tengan la clase element-list van a ser modificados
+*/
+
+.element-list {
+  background-color: aqua;
+}
+
+/*
+  selector de clase
+  los elementos que tengan la clase saludos van a ser modificados
+*/
+
+.saludos {
+  background-color: black;
+}
+
+/*
+  selector compuesto de clase
+  los elementos que tengan la etiqueta a y además tengan la clase saludos
+*/
+
+a.saludos {
+  color: brown;
+}
+
+/*
+  selector compuesto de clase
+  los elementos que tengan la etiqueta p y además tengan la clase saludos
+*/
+
+p.saludos {
+  color: violet;
+}
+
+/*
+  selector de id
+  los elementos que tengan el id super-especial
+*/
+
+#super-especial {
+  color: darksalmon;
+}
+
+/*
+  selector de hijo directo
+  los elementos li que sean hijos directos de ul
+*/
+
+ul>li {
+  font-size: 25px;
+}
+
+/*
+  selector descendiente
+  los elementos li que sean hijos de ul (directos o indirectos)
+*/
+
+ul li {
+  font-family: fantasy;
+}
+
+/*
+  selector de hermano adyancente
+  los elementos p que sean hermanos adyancentes (inmediatamente proximos) al h1
+*/
+
+h1+p {
+  font-size: 5px;
+}
+
+a{
+  text-decoration: blink;
+}
