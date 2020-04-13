@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* display */
+
+h1 {
+  border: 3px solid blueviolet;
+  margin-bottom: 50px;
+}
+
+.inline-1 {
+  /* por defecto el span es inline*/
+  display: inline;
+  height: 374px;
+  width: 368px;
+  border: 1px solid blue;
+  padding-left: 10px;
+  padding-right: 20px;
+  padding-top: 42px;
+  padding-bottom: 2px;
+  margin-right: 26px;
+}
+
+.block-1 {
+  display: block;
+  width: 300px;
+  height: 150px;
+  border: 2px solid blue;
+}
+
+.inline-block-1 {
+  display: inline-block;
+}
+
+ul {
+  border: 1px solid blue;
+  border-radius: 10px;
+  box-shadow: -5px -5px #777777;
+}
+
+li {
+  display: inline-block;
+  width: 24%;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+li:hover {
+  background-color: red;
+}
+
+ul li:first-child {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  visibility: hidden;
+}
+
+ul li:last-child {
+  width: 25.45%;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+
+/* Position */
+
+.anormal {
+  position: relative;
+  top: -66px;
+  left: 159px;
+}
+
+.complicado {
+  /*
+    Si no le asigno un padre
+    toma a la ventana como padre
+    Recordar que sale afuera
+    del flujo normal de la página
+  */
+  position: absolute;
+  top: 1000px;
+  left: 135px;
+}
