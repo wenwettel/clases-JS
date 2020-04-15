@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 20px;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+.texto-grande {
+  font-size: 25px;
+}
+
+.texto-chico {
+  font-size: 18px;
+}
+
+.verde {
+  color: green;
+}
+
+.rojo {
+  color: red;
+}
+
+.negrita {
+  font-weight: bold;
+}
+
+ul {
+  height: 50px;
+  list-style: none;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.cajas {
+  width: 200px;
+  height: 150px;
+  border: 2px solid black;
+  background-color: red;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.contenedor-de-divs {
+  border: 3px dashed blue;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#caja-9 {
+  order: -1;
+}
+
+#caja-1 {
+  order: 1;
+}
+
+#caja-2 {
+  order: 2;
+}
+
+.order-2 {
+  order: -2;
+}
