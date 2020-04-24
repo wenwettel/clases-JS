@@ -1,0 +1,36 @@
+Metodologia de trabajo: Agile
+
+Vamos a estar trabajando especificamente con SCRUM
+
+La carga de trabajo se divide en sprints
+
+Sprint: 2 a 3 semanas de trabajo planificadas
+
+Dentro de estas 2 o 3 semanas se desarolla una o varias caracteristicas 
+del producto.
+
+Ceremonias: Son reuniones que se llevan a cabo para cumplir un cierto objetivo.
+
+Hay diferentes tipos de ceremonias dentro de la Metodologia Agile
+
+Ejemplos:
+  * Pre-planificación
+  * Planificación
+  * Daily
+  * Retrospectiva
+
+Pre-planificacion: Es la etapa de relevamiento donde averiguo toda la
+información que voy a usar para diagramar el sprint. Esta información
+la voy a usar en la planificacion
+
+Planificación: Es cuando se diagrama todo el trabajo que se va a hacer
+dentro del sprint
+
+Daily: Son 10-15 minutos todos los días de trabajo donde se reunen
+todos los integrantes del grupo y dicen 3 cosas.
+1: En que estuvieron trabajando
+2: En que van a trabajar hoy
+3: Si tienen algun bloqueante (o sea, un problema que no pueden resolver)
+
+Retrospectiva: Una reunión donde se juntan todos los integrantes del grupo
+y dicen aquellas que se deben mejorar.

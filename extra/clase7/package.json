@@ -1,0 +1,50 @@
+{
+  "/": "con npm init creo un proyecto desde cero",
+  "name": "clase7",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "/": "npm run nombre-de-script para correr el script que quiero",
+    "//": "Scripts es donde escribo los comandos que quiero ejecutar",
+    "correr-server": "live-server --port=3000 --watch=index.html",
+    "correr-index": "node index.js",
+    "script-npm": "node -v",
+    "script-node": "npm -v",
+    "correr-sass": "gulp sass",
+    "vigilar-sass": "gulp watch:solocss",
+    "vigilar-watchSassMin": "gulp watch:cssMasMin",
+    "vigilar-sassMinManera2": "gulp minify2",
+    "vigilar-watchSassMinManera2": "gulp watch:cssMasMinV2",
+    "minificar-css": "gulp minify",
+    "mirar-js": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "|": "instalar un paquete localmente se refiere a que se guardo dentro de este proyecto",
+  "||": "instalar un paquete globalmente se refiere a que se guardo dentro de la computadora y se puede usar desde cualquier proyecto sin tener que hacer npm install",
+  "*": "npm uninstall nombre-del-paquete, para desinstalar un paquete",
+  "**": "npm i -g nombre-del-paquete es para instalar el paquete globalmente",
+  "***": "a menos que se ponga -g todos los paquetes solo se pueden usar localmente",
+  "//////": "npm i es lo mismo que npm install ",
+  "///7///": "npm i nombre-del-paquete para instalar el paquete",
+  "////////": "el paquete se guarda en dependencies por defecto",
+  "/////////": "npm i nombre-del-paquete --save-dev para guardarlo en devDependencies",
+  "//////////": "atajo para guardarlo en devDependencies npm i nombre-del-paquete -D",
+  "****": "npm list para ver los paquetes que tengo instalado localmente y todas sus sub-dependecias",
+  "|||": "npm list --depth 0 para ver solo aquellas depencias que tengo instalado, sin sus sub-dependencias",
+  "//": "Si me traigo el proyecto de otro lado y hago npm i, me instalo todo las dependecias automaticamente para mi",
+  "///": "Dependencias son aquellas cosas que instalo con npm i, son paquetes",
+  "////": "dependencies, son las dependencias que instalo y que van a subirse a internet con mi proyecto",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-cssnano": "^2.1.3",
+    "gulp-sass": "^4.1.0",
+    "nodemon": "^2.0.3"
+  },
+  "/////": "aqui van las dependencias que solo uso cuando trabajo en mi maquina",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
