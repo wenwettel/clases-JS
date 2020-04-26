@@ -1,0 +1,39 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: lightblue;
+  padding: 20px;
+  display: flex;
+}
+
+.item {
+  width: 150px;
+  height: 100px;
+  background-color: lightcyan;
+  border: 2px solid darkcyan;
+  margin-left: 1%;
+  flex-grow: 1;
+}
+
+.texto {
+  background-color: lightseagreen;
+  border: 2px solid darkcyan;
+  margin-left: 1%;
+}
+
+.item:first-child {
+  margin-left: 0;
+}
