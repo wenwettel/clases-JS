@@ -1,1 +1,9 @@
-.titulo{color:red;text-align:center}.titulo span{color:blue;font-weight:700}
+h1 {
+  color: black; }
+
+.titulo {
+  color: red;
+  text-align: center; }
+  .titulo span {
+    color: blue;
+    font-weight: bold; }

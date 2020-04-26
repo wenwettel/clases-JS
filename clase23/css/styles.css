@@ -1,0 +1,103 @@
+html {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+*, *::after, *::before {
+  box-sizing: inherit;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.contenedor {
+  border: 2px solid red;
+  display: flex;
+  /* flex-direction: row;
+  flex-wrap: wrap; */
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  height: 200px;
+  align-items: baseline;
+}
+
+.cajitas {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  width: 100px;
+  padding: 10px;
+  height: 100px;
+  background-color: blue;
+  border: 2px dashed black;
+  display: inline-block;
+}
+
+.caja-1 {
+  order: 1;
+  flex: 0 0 120px; /* flew-grow flex-shrink flex-basis; */
+  align-self: center;
+}
+.caja-5 {
+  order: -1;
+  flex-grow: 1;
+}
+.caja-4 {
+  flex-grow: 2;
+}
+
+.contenedor1 {
+  display: flex;
+  margin: 10px auto;
+  width: 95%;
+  background-color: gray;
+  height: 150px;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.contenedor1 .item {
+  flex-grow: 1;
+  height: 100px;
+  background-color: aliceblue;
+  border: 1px solid red;
+}
+
+.item + .item {
+  margin-left: 1%;
+}
+
+.contenedor2 {
+  display: flex;
+  margin: 10px auto;
+  width: 95%;
+  background-color: gray;
+  height: 150px;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.contenedor2 .item {
+  flex-grow: 1;
+  height: 100px;
+  background-color: aliceblue;
+  border: 1px solid red;
+}
+
+.contenedor2 .tercero {
+  flex-grow: 2;
+} 
+
+
+/* 
+Ejemplo: 
+Espacio disponible es 30
+primera suma los flex grow
+1+2 = 3
+30/3 = 10px
+caja4 = 100px + (10px * 2) = 120px
+caja5 = 100px + (10px * 1) = 110px
+*/

@@ -39,6 +39,7 @@
   "////": "dependencies, son las dependencias que instalo y que van a subirse a internet con mi proyecto",
   "dependencies": {
     "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
     "gulp-cssnano": "^2.1.3",
     "gulp-sass": "^4.1.0",
     "nodemon": "^2.0.3"

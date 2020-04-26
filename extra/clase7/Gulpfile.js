@@ -2,10 +2,12 @@
 const gulp = require('gulp');
 const sass = require('gulp-sass');
 const cssnano = require('gulp-cssnano');
+const concat = require('gulp-concat');
 
 gulp.task('sass', function crearSass() {
   return gulp.src('./sass/*.scss')
     .pipe(sass())
+    .pipe(concat('styles.css'))
     .pipe(gulp.dest('./css'));
 });
 
