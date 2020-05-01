@@ -1,0 +1,56 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  background-color: lightblue;
+  margin:  10px auto;
+  display: flex;
+  padding: 20px 0;
+  width: 900px;
+}
+
+.item {
+  flex-grow: 1;
+  width: 200px;
+  height: 150px;
+  background-color: lightcyan;
+  border: 2px solid darkcyan;
+}
+
+#item-2 {
+  flex-grow: 2;
+}
+
+#item-3 {
+  flex-grow: 3;
+}
+
+.container {
+  width: 300px;
+}
+
+#item-2 {
+  flex-shrink: 2;
+}
+
+#item-3 {
+  flex-shrink: 3;
+}
+
+#item-2,
+#item-1,
+#item-3 {
+  flex-shrink: 0;
+}
