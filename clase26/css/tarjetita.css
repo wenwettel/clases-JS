@@ -1,0 +1,47 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgray;
+}
+
+.card {
+  background-color: white;;
+  width: 350px;
+  height: 250px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-top: 5px solid rgb(54, 146, 216);
+}
+
+.description {
+  font-weight: 200;
+  margin-top: 8px;
+}
+
+.imagen {
+  margin-top: auto;
+  /* 
+    margin-left: auto;
+    Opcional si no queremos usar align-self
+  */
+  align-self: flex-end;
+}
