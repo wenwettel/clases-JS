@@ -1,0 +1,15 @@
+a {
+  display: block;
+}
+
+#fin:target {
+  background-color: blue;
+}
+
+#otro:target {
+  background-color: red;
+}
+
+#inicio:target {
+  background-color: cyan;
+}
